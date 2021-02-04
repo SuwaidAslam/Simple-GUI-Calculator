@@ -90,7 +90,7 @@ button_1 = Button(calc, width=6, height=2, bd=4, font=('arial', 20, 'bold'), tex
 button_2 = Button(calc, width=6, height=2, bd=4, font=('arial', 20, 'bold'), text="2",
                   command=lambda: button_click(2)).grid(row=4, column=1)
 button_3 = Button(calc, width=6, height=2, bd=4, font=('arial', 20, 'bold'), text="3",
-                  command=lambda: button_click(1)).grid(row=4, column=2)
+                  command=lambda: button_click(3)).grid(row=4, column=2)
 botton_add = Button(calc, text="+", width=6, height=2, bd=4, bg="#FFE933", font=('arial', 20, 'bold'),
                     command=lambda: button_click('+'))
 botton_sub = Button(calc, text="-", width=6, height=2, bd=4, bg="#FFE933", font=('arial', 20, 'bold'),
